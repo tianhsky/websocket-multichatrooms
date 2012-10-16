@@ -2,6 +2,8 @@
 
 A small chatroom web application written with socket.io
 
+[See Demo](http://www.tianyuhuang.com/examples/chatroom)
+
 ## How to use it
 
 ###Configuration
