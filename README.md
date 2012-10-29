@@ -1,8 +1,8 @@
 # websocket-multichatrooms
 
-A small chatroom web application written with socket.io
+A small chatroom web application written with node.js and socket.io
 
-[See Demo](http://www.tianyuhuang.com/examples/chatroom)
+[See Demo](http://www.tianyuhuang.com/examples/chatroom "Demo")
 
 ## How to use it
 
@@ -10,19 +10,11 @@ A small chatroom web application written with socket.io
 
 ####/server.js
 
-default port is 8080, change it to a non-occupied port if you like
-
-	var port = 8080;
-
-####/index.html
-
-change the js library source to point to your server
-
-	<script src="http://blog.tianyuhuang.com:8080/socket.io/socket.io.js"></script>
-
-change the websocket_server to point to your server
-
-	var websocket_server = "http://blog.tianyuhuang.com:8080";
+	// default port
+	var app_port = 8080;
+	
+	// default node module path	
+	var node_module_path = '/node_modules';
 
 ## Start/Stop Service
 

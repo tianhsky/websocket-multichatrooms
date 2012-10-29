@@ -1,0 +1,8 @@
+.watermark {
+    color: #d0d0d0;
+    font-size: 50pt;
+    z-index: -1;
+}
+.text {
+    word-wrap: break-word;
+}
