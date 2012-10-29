@@ -45,7 +45,7 @@ since the process will be killed when you exit the shell or session; in order to
 	forever list 
 
 	#find the process to be killed, 0 is the index
-	forever kill 0 
+	forever stop 0 
 
 ## Author
 
