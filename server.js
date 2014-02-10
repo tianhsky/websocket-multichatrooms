@@ -13,16 +13,7 @@ var fs = require("fs");
 var app_root_path = path.join(__dirname, './');
 var app_modules_path = path.join(app_root_path, node_module_path);
 
-var http = require('http');
-var express = require(path.join(app_modules_path,'/express'));
-var app = express();
-var server = http.createServer(app);
-var io = require(path.join(app_modules_path,'/socket.io')).listen(server);
-io.set('log level', 1);
-server.listen(port);
-
 // setup server
-var port = 8080;
 var express = require('express');
 var http = require('http');
 
